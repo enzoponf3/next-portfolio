@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ponfe Notes",
+    "description": "Notes application, CRUD and filter by Labels. Using the useContext hook to mange the user state and Firebase as no-SQL database and session manager.",
+    "stack": ["react", "sass", "firebase"],
+    "site": "https://notes-ponfe.web.app/",
+    "code": "https://github.com/enzoponf3/notes",
+    "image": "notes.png",
+    "importance": "high"
+  },
+  {
+    "name": "Basement Challenge",
+    "description": "Front end challenge, using the design provided in a figma file the tasks were implement a shop cart for the basement swag and store the items in local storage.",
+    "stack": ["nextjs, typescript, tailwinds"],
+    "site": "https://enzoponf3-basement-challenge.vercel.app/",
+    "code": "https://github.com/enzoponf3/basement-challenge",
+    "image": "basement.png",
+    "importance": "high"
+  },
+  {
+    "name": "Black Box Vision challenge",
+    "description": "Quiz app using the opentdb.com API. Two modes, score by answering 10 questions and an endless were you loose at your first mistake",
+    "stack": ["react"],
+    "site": "https://enzoponf3-bbv-challenge.netlify.app",
+    "code": "https://github.com/enzoponf3/blackbox-vision-challenge",
+    "image": "bbvchallenge.png",
+    "importance": "high"
+  },
+  {
+    "name": "Devoff desafío 5 - Pokedex",
+    "description": "Using the pokeAPI, mobile application that displays Pokémons in an infinite scroll and a details screen using colors depending the nature of the creature.",
+    "stack": ["react", "chakra"],
+    "site": "https://enzoponf3-devoff-5.netlify.app",
+    "code": "https://github.com/enzoponf3/DevOff-Desafio-5",
+    "image": "pokedex.png",
+    "importance": "high"
+  },
+  {
+    "name": "Time Tracking Challenge",
+    "description": "Challenge to replicate UI from Front End challenge for desktop and mobile versions.",
+    "stack": ["html", "css", "javascript"],
+    "site": "https://enzoponf3.github.io/time-tracking-challenge/",
+    "code": "https://github.com/enzoponf3/time-tracking-challenge",
+    "image": "time-tracker.png",
+    "importance": "normal"
+  },
+  {
+    "name": "Manage Landing Page",
+    "description": "Following the designs of the challenge, i've recreate a landig page for this company.",
+    "stack": ["svelte"],
+    "site": "https://enzoponf3.github.io/manage-landing-page/",
+    "code": "https://github.com/enzoponf3/manage-landing-page",
+    "image": "manage.png",
+    "importance": "normal"
+  },
+  {
+    "name": "Aerolab challenge",
+    "description": "Redeem your points, see your lasts redeems and add coins to your account.",
+    "stack": ["svelte"],
+    "site": "https://enzoponf3-aerolab-challenge.netlify.app",
+    "code": "https://github.com/enzoponf3/aerolab-challenge",
+    "image": "aerolab.png",
+    "importance": "normal"
+  },
+  {
+    "name": "Innovid Challenge",
+    "description": "Connect to your servers to see they're CPU usage every 5 seconds, you can also turn they off. A css library give us the feel of Windows 98.",
+    "stack": ["react"],
+    "site": "",
+    "code": "https://github.com/enzoponf3/innovid-challenge",
+    "image": "innovid.png",
+    "importance": "normal"
+  }
+]

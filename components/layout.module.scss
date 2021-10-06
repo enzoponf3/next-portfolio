@@ -1,0 +1,147 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  backdrop-filter: blur(16px);
+  width: 100%;
+  background: rgba(#000, 0.3);
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      align-items: center;
+      & :not(:first-child) {
+        margin-left: 0.5rem;
+      }
+      li {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0;
+        list-style: none;
+        &:last-child {
+          padding-right: 0;
+        }
+        a {
+          color: #efefef;
+          &:hover {
+            color: var(--primary);
+          }
+        }
+      }
+    }
+  }
+}
+
+.presentation {
+  width: 100%;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  color: #efefef;
+  font-size: larger;
+  img {
+    border: solid 3px #efefef;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    .social {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin: 1rem 0;
+      & :first-child {
+        margin-right: 1rem;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        color: var(--primary);
+      }
+    }
+  }
+}
+
+.profilePic {
+  display: flex;
+  filter: grayscale(100%);
+  div {
+    width: 100%;
+  }
+  img {
+    border-radius: 3px;
+  }
+}
+
+.arrowIcon {
+  width: fit-content;
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+.explore {
+  border: 1px solid var(--primary);
+  border-radius: 50%;
+  margin-top: 4rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .presentation {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    font-size: medium;
+    div {
+      width: 100%;
+      .social {
+        margin-top: 2rem;
+        a {
+          div {
+            height: 2rem;
+            width: 3rem;
+          }
+        }
+      }
+    }
+    .profilePic {
+      width: 30vh;
+      height: 30vh;
+      margin-bottom: 2rem;
+      overflow: hidden;
+      div {
+        height: 100%;
+      }
+      img {
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+  .explore {
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    border: none;
+    align-items: flex-start;
+  }
+
+  .arrowIcon {
+    margin: 0 25%;
+  }
+}
