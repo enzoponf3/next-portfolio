@@ -10,11 +10,17 @@ export default function Layout({ children }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/images/icons/favicon.svg" />
+
+        <meta name="twitter:site" content="@enzoponf3" />
+        <meta name="twitter:creator" content="@enzoponf3" />
         <meta
-          name="description"
+          name="og:description"
           content="Enzo Ponferrada personal portfolio. Take a look to my projects and contact me to create your web or application."
         />
-        <meta property="og:image" content={``} />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/ponfe/image/upload/v1633479680/images/logo_axbkk5.svg"
+        />
         <meta name="og:title" content="Enzo Ponferrada | Web Developer" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
